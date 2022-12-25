@@ -1,0 +1,100 @@
+.password-Item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 30%;
+  border: 2px solid #b6c3ca;
+  border-radius: 5px;
+  margin: 10px;
+}
+@media (max-width: 910px) {
+  .password-Item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .password-Item {
+    width: 100%;
+  }
+}
+.password-text-container {
+  display: flex;
+  align-items: center;
+}
+.first-letter {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.first-letter-container {
+  align-self: center;
+}
+.password-details-container {
+  color: white;
+  font-weight: 500;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* background-color: red; */
+}
+.stars {
+  width: 90px;
+  height: 20px;
+  margin: 2px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+.delete-img {
+  height: 30px;
+}
+.password-text {
+  margin: 2px;
+}
+.a {
+  background-color: #94a3b8;
+}
+.b {
+  background-color: #b6c3ca;
+}
+.c {
+  background-color: #7683cb;
+}
+.d {
+  background-color: #f59e0b;
+}
+.e {
+  background-color: #10b981;
+}
+.f {
+  background-color: #f97316;
+}
+.g {
+  background-color: #14b8a6;
+}
+.h {
+  background-color: #b91c1c;
+}
+.i {
+  background-color: #0ea5e9;
+}
+.j {
+  background-color: #64748b;
+}
+button {
+  cursor: pointer;
+}
